@@ -1,0 +1,293 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face{
+        font-family:autography;
+        src:url('autography.ttf');
+    } 
+    @font-face{
+        font-family:CaviarDreams;
+        src:url('CaviarDreams.ttf');
+    }
+	body{background-color:#e2e1d6;}
+        header div{
+            background-color:#1f2720;
+            height: 650px;
+        }
+        section{
+            background-color:#e2e1d6;
+            height: 1150px;
+        }
+        .secao_1{
+            background-color:#e2e1d6; 
+            height: 1150px;
+        }
+        section h1{
+            margin-top: 0;
+            margin-left: 45%;
+            padding: 5%;
+	        font-family:autography;
+            font-size: 50px;
+
+        }
+        section .img_1{
+            position:absolute; left:40%; top:130%;
+            height: 400px;
+            margin-top:12%;
+        }
+        section .img_2{
+            width: 25%;
+            opacity: 0.5;
+        }
+        .bloco_text1{
+            margin-left: 5%;
+            height: 300px;
+            float: left;
+            width: 50%;
+            background-color: rgb(219, 219, 191);
+        }
+        .bloco_text2{
+            margin-right: 5%;
+            margin-bottom: 5%;
+            height: 300px;
+            float: right;
+            width: 50%;
+            background-color: rgb(219, 219, 191);
+        }
+        .bloco_text1 p{
+            font-family:CaviarDreams;
+            width: 50%;
+            padding: 10%;
+        }
+        .bloco_text2 p{
+            font-family:CaviarDreams;
+            float: right;
+            width: 50%;
+            padding: 10%;
+        }
+        .secao_2{
+            background-color:#151816;
+            height: 650px;
+            margin-top: 0;
+        }
+        .subtitulo{
+            position:absolute; top:260%;
+        }
+        .secao_2 p{
+            color: #e2e1d6;
+            padding: 20%;
+            font-family:CaviarDreams;
+            font-size: 20px;
+            width: 50%;
+            margin-left:5%;
+            
+            
+        }
+        .bloco_decoracao{
+           
+            position:absolute; left: 25%; top:290%;
+        }
+        .img_decoracao{
+            height: 350px;
+        }
+        .secao_3{
+            background-color:#e2e1d6;
+            height: 650px;
+            padding-top: 5%;
+        }
+        .secao_3 img{
+            height: 400px;
+            margin-left: 3%;
+            margin-top: 3%;
+            position:absolute;
+        }
+        .secao_3 .div_text{
+            height: 400px;
+            width: 400px;
+            margin-right: 5%;
+            float: right;
+            padding: 5%;
+        }
+        .secao_3 .div_text p{
+            padding: 10%;
+            width: 100%;
+            font-family: CaviarDreams;
+            color:#1f2720;
+        }
+        
+        
+        .div_card{
+            background-color: rgb(219, 219, 191);
+            height: 400px;
+            width: 350px;
+            margin-left: 5%;   
+        }
+        .div_card h1{
+           position:absolute;
+           margin-left: 5%; 
+           margin-top:25%;
+        }
+        .div_card2{
+            background-color: rgb(219, 219, 191);
+            height: 400px;
+            width: 90%;
+            margin-right: 5%; 
+            margin-left: 5%;
+            margin-top: 10%; 
+            position:absolute;
+        }
+        .div_card2 .div_card2_img1{
+            height: 300px;
+            width: 250px;
+            margin-top: 5%;
+            margin-bottom: 5%;
+           
+            margin-left: 5%;
+        }
+        .div_card2 .div_card2_img2{
+            width: 250px;
+            height: 300px;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            
+            margin-left: 325px;
+        }
+        .div_card2 .div_card2_img3{
+            width: 250px;
+            height: 300px;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            
+            margin-left:600px;
+        }
+        .div_card2 .div_card2_img4{
+            width: 250px;
+            height: 300px;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            
+            margin-left: 875px;
+        }
+        .cabecalho .logo{
+            margin-top: 5%;
+            margin-left: 30%;
+        }
+        .secao_4{
+            background-color:#1f2720;
+            height: 650px;
+            padding-top: 5%;
+            padding-left: 20%;
+            padding-right: 20%;
+        }
+        .secao_4 p {
+            padding-top: 40%;
+            font-size: 60px;
+            font-family:autography;
+            color: bisque;
+            
+        }
+        .secao_5{
+            background:#e2e1d6;
+            height: 1300px;
+            padding-top: 5%;
+            padding-left: 20%;
+            padding-right: 25%;
+        }
+        .secao_5 img{
+            width: 200px;
+            height: 400px;
+            margin-top: 10%;
+            padding: 1%;
+        }
+        .card_secao5{
+            float: right;
+        }
+        .secao_5 .card_secao5 p{
+            position: absolute;
+            margin-top: 25%;
+            font-family:autography;
+            font-size: 20px;
+            color: bisque;
+        }
+        .secao_5 img:hover{
+            opacity: 80%;
+        }
+        footer{
+            height: 600px;
+            background-color:#1f2720 ;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <img class="logo" src="logo.png">
+        </div>
+    </header>
+    <section>
+        <h1>Fotografias Casamento</h1>
+    <div class="secao_1">
+        <div class="bloco_text1">
+            <p>Lorem ipsum dui feugiat semper lorem nam bibendum scelerisque, id vehicula vestibulum litora vestibulum ante neque sodales tortor, rutrum aptent dolor euismod tincidunt.  </p>
+        </div>
+            <img class="img_1" src="imagens/casal18.jpg">
+        <div class="bloco_text2">
+            <p>Lorem ipsum dui feugiat semper lorem nam bibendum scelerisque, id vehicula vestibulum litora vestibulum ante neque sodales tortor, rutrum aptent dolor euismod tincis quisque congue senectus risus class. </p>
+        </div>
+        <h1 class="subtitulo">Decoração Casamento</h1>
+    </div>
+        <div class="secao_2">
+        <div class="bloco_decoracao">
+            <img class="img_decoracao" src="imagens/decoracao1.png">
+            <img class="img_decoracao" src="imagens/decoracao2.jpeg">
+            <img class="img_decoracao" src="imagens/decoracao3.png">
+        </div>
+
+        <p>Lorem ipsum dui feugiat semper lorem nam bibendum scelerisque, id vehicula vestibulum litora vestibulum ante neque sodales tortor, rutrum aptent dolor euismod tincis quisque congue senectus risus class. </p>
+        
+        </div>
+
+        <div class="secao_3">
+            <div class="div_text">
+                <p>Lorem ipsum dui feugiat semper lorem nam bibendum scelerisque, id vehicula vestibulum litora vestibulum ante neque sodales tortor, rutrum aptent dolor euismod tincis quisque congue senectus risus class.Lorem ipsum dui feugiat semper lorem nam bibendum scelerisque, id vehicula vestibulum litora vestibulum ante neque sodales tortor, rutrum aptent dolor euismod tincis quisque congue senectus risus class. </p>
+                </div>
+            <div class="div_card">
+                <img class="" src="imagens/casal16.jpg">
+                <h1>Fotografias Casamento</h1>
+            </div>
+            
+            <div class="div_card2">
+                <img class="div_card2_img1" src="imagens/casal14.jpg"> 
+                <img class="div_card2_img2" src="imagens/casal13.jpg"> 
+                <img class="div_card2_img3" src="imagens/casal12.jpg"> 
+                <img class="div_card2_img4" src="imagens/casal15.jpg"> 
+            </div>
+        </div>
+
+        <div class="secao_4">
+            <p>Registre esse momento inesquecível...</p>
+
+        </div>
+
+        <div class="secao_5">
+            <div class="card_secao5"><p>Ana e José</p><img class="" src="imagens/casal5.jpeg"> </div>
+            <div class="card_secao5"><p>Bruna e Gabriel</p><img class="" src="imagens/casal7.jpeg"> </div>
+            <div class="card_secao5"><p>Vitória e Rodrigo</p><img class="" src="imagens/casal8.jpeg"> </div>
+            <div class="card_secao5"><p>Carolina e Antônio</p><img class="" src="imagens/casal6.jpeg"> </div>
+            <div class="card_secao5"><p>Mariana e Luis</p><img class="" src="imagens/casal9.jpeg"> </div>
+            <div class="card_secao5"><p>Júlia e Pedro</p><img class="" src="imagens/casal10.png"> </div> 
+        </div> 
+        <footer>
+
+        </footer>    
+    </section>
+    
+    
+</body>
+</html>
